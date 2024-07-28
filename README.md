@@ -22,35 +22,6 @@ This Terraform project sets up a highly available web application on AWS. The in
 
 ## Getting Started
 
-Sure, here's everything in one code box:
-
-```markdown
-# AWS Highly Available Web Application Deployment using Terraform
-
-This Terraform project sets up a highly available web application on AWS. The infrastructure includes a VPC, subnets, an internet gateway, route tables, security groups, EC2 instances, an Application Load Balancer (ALB), and an S3 bucket.
-
-## Architecture Overview
-
-![Architecture Diagram](path_to_your_architecture_diagram.png)
-
-## Components
-
-- 🌐 **VPC**: A Virtual Private Cloud with two subnets in different availability zones.
-- 🌍 **Internet Gateway**: Enables internet connectivity for the VPC.
-- 🛣️ **Route Tables**: Direct traffic to the internet gateway.
-- 🔒 **Security Group**: Controls inbound and outbound traffic for the EC2 instances and ALB.
-- 🖥️ **EC2 Instances**: Two instances initialized with user data scripts, placed in different subnets.
-- ⚖️ **Application Load Balancer (ALB)**: Distributes incoming traffic across the EC2 instances.
-- 📦 **S3 Bucket**: Storage for various application data.
-
-## Prerequisites
-
-- Terraform installed on your local machine.
-- AWS CLI configured with appropriate permissions.
-- AWS credentials configured.
-
-## Getting Started
-
 ### Clone the Repository
 
 ```sh
